@@ -1,11 +1,8 @@
-********NEED TO REDO*******
-
-def revers(num):
-    rev = 0
-    while num > 0:
-        rem = num % 10
-        rev = (rev * 10) + rem
-        num = num // 10
-    print(rev)
-revers(2345)
-    
+def reverse(numb):
+    revers = 0
+      while numb > 0:
+            remain = numb % 10
+            revers = (revers * 10) + remain
+            numb = numb // 10
+    print(revers)
+reverse(2345)
