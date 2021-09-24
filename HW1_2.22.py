@@ -6,7 +6,7 @@
 #One birth every 7 seconds (7/60 = 0.1166)
 #one death every 13 seconds (13/60 = 0.2166)
 # One imigrant every 45 seconds (45/60 = 0.75)
-yrs = int(input("Number of years"))
+yrs = int(input("Enter the number of years: "))
 population = 312032486
 seconds = 31557600
 birthrate = 7/60
@@ -19,6 +19,4 @@ die = (yrs*seconds) * deathrate
 imigrate = (yrs*seconds) * immigratrate
 
 final = population + born - die + immigratrate
-print("Population after 5 years: ",int(final))
-
-##############
+print("The population in ",yrs," years is: ",int(final))
